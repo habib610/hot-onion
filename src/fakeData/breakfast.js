@@ -1,5 +1,5 @@
 const breakfast =[
-    {"id": 7,
+    {"id":"7",
     "name": "Bagel and cream cheese",
     "shortDescription": "How we dream about our future",
     "price": 6.99,
@@ -7,7 +7,7 @@ const breakfast =[
     "photo": "https://iili.io/2TC10g.md.png",
     "category": "breakfast"
     },
-    {"id": 8,
+    {"id": "8",
     "name": "Breakfast sandwich",
     "shortDescription": "How we dream about our future",
     "price": 9.99,
@@ -15,7 +15,7 @@ const breakfast =[
     "photo": "https://iili.io/2TCEga.md.png",
     "category": "breakfast"
     },
-    {"id": 9,
+    {"id": "9",
     "name": "Backed Chicken",
     "shortDescription": "How we dream about our future",
     "price": 10.99,
@@ -23,7 +23,7 @@ const breakfast =[
     "photo": "https://iili.io/2TCMdJ.md.png",
     "category": "breakfast"
     },
-    {"id": 10,
+    {"id": "10",
     "name": "Eggs Benedict",
     "shortDescription": "How we dream about our future",
     "price": 8.99,
@@ -31,7 +31,7 @@ const breakfast =[
     "photo": "https://iili.io/2TCV5v.md.png",
     "category": "breakfast"
     },
-    {"id": 11,
+    {"id":"11",
     "name": "Toast Croissant Fried Egg",
     "shortDescription": "How we dream about our future",
     "price": 19.99,
@@ -39,7 +39,7 @@ const breakfast =[
     "photo": "https://iili.io/2TCWeR.md.png",
     "category": "breakfast"
     },
-    {"id": 12,
+    {"id": "12",
     "name": "Full breakfasrt Fried Egg Toast Brunch",
     "shortDescription": "How we dream about our future",
     "price": 3.99,

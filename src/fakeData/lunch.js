@@ -1,5 +1,5 @@
 const lunch =[
-    {"id": 13,
+    {"id": "13",
     "name": "Healthy Meal Plan",
     "shortDescription": "How we dream about our future",
     "price": 23.99,
@@ -7,7 +7,7 @@ const lunch =[
     "photo": "https://iili.io/2TCk1n.md.png",
     "category": "lunch"
     },
-    {"id": 14,
+    {"id": "14",
     "name": "Fried Chicken Bento",
     "shortDescription": "How we dream about our future",
     "price": 9.99,
@@ -15,7 +15,7 @@ const lunch =[
     "photo": "https://iili.io/2TCvgs.md.png",
     "category": "lunch"
     },
-    {"id": 15,
+    {"id": "15",
     "name": "Tarragon-Rubbed-Salmon",
     "shortDescription": "How we dream about our future",
     "price": 6.99,
@@ -23,7 +23,7 @@ const lunch =[
     "photo": "https://iili.io/2TCSdG.md.png",
     "category": "lunch"
     },
-    {"id": 16,
+    {"id": "16",
     "name": "Indian Lunch",
     "shortDescription": "How we dream about our future",
     "price": 8.99,
@@ -31,7 +31,7 @@ const lunch =[
     "photo": "https://iili.io/2TCeqX.md.png",
     "category": "lunch"
     },
-    {"id": 17,
+    {"id": "17",
     "name": "Beef Steak",
     "shortDescription": "How we dream about our future",
     "price": 15.99,
@@ -39,7 +39,7 @@ const lunch =[
     "photo": "https://iili.io/2TCU7f.md.png",
     "category": "lunch"
     },
-    {"id": 18,
+    {"id": "18",
     "name": "Hone-Soy-Glazed Salmon with Peppers",
     "shortDescription": "How we dream about our future",
     "price": 7.99,
