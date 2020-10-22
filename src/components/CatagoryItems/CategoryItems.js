@@ -3,19 +3,20 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import { CardMedia, Grid, Tooltip } from '@material-ui/core';
+import { CardMedia, Grid } from '@material-ui/core';
 import {
   Link
 } from "react-router-dom";
 
 const useStyles = makeStyles({
     root: {
-      minWidth: 100,
       
     },
     media: {
-        height: 100,
-        paddingTop: '56.25%', // 16:9
+        height: "55vh",
+        // width: "25vw"
+        width: "100%"
+        // paddingTop: '56.25%', // 16:9
       },
     title: {
       fontSize: 14,
@@ -36,7 +37,7 @@ const CategoryItems = (props) => {
     return (
        
 
-      <Grid items   xs={12} sm={4} align="center">
+      <Grid item   xs={12} sm={6} md={4}  align="center">
         
             <Card>
        
@@ -62,9 +63,6 @@ const CategoryItems = (props) => {
          <Typography variant="h4" color="secondary"  component="h2">
              ${price}
          </Typography>
-
-
-         
        </CardContent>
      </Card>
            

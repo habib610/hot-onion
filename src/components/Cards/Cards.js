@@ -55,7 +55,7 @@ const Cards = () => {
         <div>
             <Container>
             <Grid container>
-                    <Grid items sm={12} md={4}>
+                    <Grid item sm={12} md={4}>
                         <Typography variant="h4" >
                         Why Choose Us
                         </Typography>
@@ -65,7 +65,7 @@ const Cards = () => {
                     </Grid>
                     </Grid>
                     <Grid container style={{marginTop: '20px', marginBottom: "30px"}} gutterBottom>
-                        <Grid items sm={12} md={4}>
+                        <Grid item sm={12} md={4}>
 
                         <Card className={classes.root}>
       <CardMedia
@@ -141,7 +141,7 @@ const Cards = () => {
           
         </IconButton>
         <Box>
-        <Typography  variant="body" gutterBottom color="textPrimary" component="h2">
+        <Typography  variant="body"  color="textPrimary" component="h2">
             Fast Delivery
         </Typography>
         <Typography  variant="body2" color="textSecondary" component="p">

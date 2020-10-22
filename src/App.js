@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import FoodDetails from './components/FoodDetails/FoodDetails';
 import Login from './components/Login/Login';
+import DeliveryDetail from './components/DeliveryDetails/DeliveryDetail';
 export const UserContext = createContext();
 
 
@@ -19,12 +20,13 @@ function App() {
     
     <div>
       <Router>
-      <Header></Header>
         <Switch>
           <Route exact path="/">
+      <Header></Header>
       <Home></Home>
           </Route>
           <Route  path="/home">
+      <Header></Header>
       <Home></Home>
           </Route>
           <Route  path="/food/:foodId">
@@ -32,6 +34,9 @@ function App() {
           </Route>
           <Route  path="/login">
       <Login></Login>
+          </Route>
+          <Route  path="/deliveryDetails">
+      <DeliveryDetail></DeliveryDetail>
           </Route>
 
         </Switch>

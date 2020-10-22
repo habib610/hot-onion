@@ -6,12 +6,13 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { UserContext } from '../../App';
+import {Link} from 'react-router-dom';
+import { Badge } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     backgroundColor: 'white',
     color: 'black',
-
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -51,9 +52,10 @@ const [cart, setCart] = useContext(UserContext);
           <Typography variant="h6" className={classes.title}>
         <img className={classes.logo} src="https://iili.io/2To1HJ.png" alt=""/>
           </Typography>
+          <Badge badgeContent={cart} color="primary">
           <ShoppingCartIcon  className={classes.cart} variant="contained" color="secondary"></ShoppingCartIcon>
-  <p>{cart}</p>
-       <Button  className={classes.hover}>Login</Button>
+          </Badge>
+       <Link to="/login"><Button  className={classes.hover}>Login</Button></Link>
           <Button  className={classes.hover}>Sign Up</Button>
         </Toolbar>
       </AppBar>
